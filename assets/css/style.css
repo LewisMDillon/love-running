@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -107,10 +108,28 @@ h1, h2 {
     position: absolute;
 }
 
+#club-ethos {
+    height: 600px;
+}
 
+#ethos-container {
+    display: flex;
+    justify-content:space-between    
+}
 
+#ethos-container div {
+    padding-top: 30px;
+    width: 33%;
+}
 
+#left-about {
+    background-color: blue;
+}
 
+#center-about {
+    background-color: green;
+}
 
-
-
+#right-about {
+    background-color: silver;
+}
