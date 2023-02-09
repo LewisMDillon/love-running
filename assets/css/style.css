@@ -112,24 +112,41 @@ h1, h2 {
     height: 600px;
 }
 
-#ethos-container {
-    display: flex;
-    justify-content:space-between    
+#club-ethos h1 {
+    text-align: center;
 }
 
-#ethos-container div {
-    padding-top: 30px;
-    width: 33%;
+#ethos-container {
+    display: flex;
+    justify-content: space-between;  
 }
 
 #left-about {
-    background-color: blue;
+    /* background-color: aqua; */
+    width: 33%;
+}
+
+#left-about h2 {
+    margin-left: 40%;
+}
+
+#left-about p {
+    margin-left: 40%;
+    padding-bottom: 50px;
 }
 
 #center-about {
     background-color: green;
+    width: 33%
 }
 
 #right-about {
     background-color: silver;
+    width: 33%
+}
+
+hr {
+    border-top: #252525 solid 1px;
+    margin-left: 40%;
+    padding-bottom: 5px;
 }
