@@ -222,3 +222,24 @@ h2 {
 #times h2 {
 color: #fafafa;
 }
+
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul i {
+    font-size: 160%;
+    margin: 60%;
+    padding: 50%;
+    color: #3a3a3a;
+}
